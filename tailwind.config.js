@@ -2,15 +2,16 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    colors: {
-      'bookmark-purple': '#5267DF',
-      'bookmark-red': '#FA5959',
-      'bookmark-blue': '#242A45',
-      'bookmark-grey': '#9194A2',
-      'bookmark-white': '#f7f7f7',
-      'bookmark-black': '#000000',
+    extend: {
+      colors: {
+        'bookmark-purple': '#5267DF',
+        'bookmark-red': '#FA5959',
+        'bookmark-blue': '#242A45',
+        'bookmark-grey': '#9194A2',
+        'bookmark-white': '#f7f7f7',
+        'bookmark-black': '#000000',
+      },
     },
-    extend: {},
     fontFamily: {
       Poppins:["Poppins, sans-serif"],
     },

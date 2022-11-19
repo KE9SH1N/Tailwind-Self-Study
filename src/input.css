@@ -13,3 +13,7 @@
 .btn-white{
     @apply bg-bookmark-white
 }
+
+.indicator{
+    transition: left .4s;
+}
